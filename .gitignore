@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+secrets/
+
+# Generated files
+storage/*
+!storage/.gitkeep
+
+# Backups
+*.bak
+*.backup
+*.old
+*.format-backup
+*~
+
+# Test and tool artifacts
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Temporary update copies
+server_update/
+server_update2/
+server_update3/
+
+# Operating system
+.DS_Store
+Thumbs.db
